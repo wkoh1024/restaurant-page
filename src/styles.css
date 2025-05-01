@@ -55,6 +55,25 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    background-color: #faf0e6;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 50px;
+}
+
+nav button {
+    flex: 1;
+    background-color: #c9ab87;
+    color: black;
+
+}
+
 #bubbleTea {
     height: 300px;
 }
@@ -62,4 +81,11 @@ table {
 h1 {
     font-family: "Aloevera", Helvetica, sans-serif;
     font-size: 200px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
