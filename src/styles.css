@@ -60,8 +60,14 @@ html {
     justify-content: space-around;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 nav {
     display: flex;
+    align-self: flex-start;
     background-color: black;
     justify-content: space-around;
     height: 50px;
@@ -71,7 +77,8 @@ nav button {
     flex: 1;
     background-color: #c9ab87;
     color: black;
-
+    font-size: 30px;
+        font-family: "Aloevera";
 }
 
 #bubbleTea {
@@ -88,4 +95,31 @@ h1 {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    padding: 50px 0;
+}
+.motto {
+    font-size: 3.015rem;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative; 
+    z-index:-1;
+
+}
+
+#brushStroke {
+    filter: brightness(0) saturate(100%) invert(78%) sepia(19%) saturate(449%) hue-rotate(340deg) brightness(89%) contrast(91%);
+    width: 90%;
+    height: 900px;
+    transform: rotate(350deg);
+
+}
+
+.motto span {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
 }
