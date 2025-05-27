@@ -90,6 +90,10 @@ h1 {
     font-size: 200px;
 }
 
+h2 {
+    font-weight: 600;
+}
+
 .title {
     display: flex;
     flex-direction: column;
@@ -133,7 +137,6 @@ h1 {
 }
 
 .bottom h2 {
-    font-weight: 600;
     font-size: 2rem;
     text-align: center;
 }
@@ -199,4 +202,30 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#xft-dabin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#xft-dabin img {
+    height: 30vh;
+} 
+
+.tea-menu {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 30px;
+}
+
+.tea-menu h2{
+    font-size: 2.8rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
