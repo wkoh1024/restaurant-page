@@ -204,20 +204,23 @@ a {
     align-items: center;
 }
 
-#xft-dabin {
+.tea-item {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-#xft-dabin img {
+.tea-menu img {
     height: 30vh;
 } 
 
 .tea-menu {
     font-family: 'Outfit', sans-serif;
-    padding-top: 30px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
 }
 
 .tea-menu h2{
@@ -229,3 +232,4 @@ a {
     flex-direction: column;
     gap: 5px;
 }
+
