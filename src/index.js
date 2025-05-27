@@ -1,19 +1,20 @@
 import loadHome from "./home.js";
+import "./styles.css";
 
-document.querySelector("#content").textContent = ""; //  clears content
+// document.querySelector("#content").textContent = ""; //  clears content
 
 let buttons = document.querySelectorAll("nav button");
 console.log(buttons);
+
+// loadHome();
 
 buttons.forEach(button => {
     button.addEventListener('click', (e)=> {
         switch(e.target.textContent) {
             case 'Home':
                 loadHome();
-                console.log("swirtch caseeee");
                 break;
             case 'Menu':
-                console.log("21213");
                 break;
             case 'About':
                 
@@ -22,6 +23,4 @@ buttons.forEach(button => {
             default:
         }
     })
-})
-
-loadHome();
+});
