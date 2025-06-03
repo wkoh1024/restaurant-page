@@ -1,5 +1,6 @@
 import loadHome from "./home.js";
 import loadMenu from "./menu.js";
+import loadAbout from "./about.js";
 import "./styles.css";
 
 
@@ -24,7 +25,7 @@ buttons.forEach(button => {
                 break;
             case 'About':
                 clearContent();
-                console.log("asd");
+                loadAbout();
                 break;
             default:
         }
