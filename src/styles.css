@@ -241,6 +241,7 @@ a {
 #aboutUs {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #aboutUs h1 {
@@ -250,6 +251,12 @@ a {
 }
 
 #aboutUs img {
-    align-self: center;
     border-radius: 10%;
 }
+
+#aboutUs p {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 2%;
+    font-size: 1.5em;
+}
+
